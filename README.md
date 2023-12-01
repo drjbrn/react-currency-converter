@@ -6,4 +6,4 @@
 
 or 
 
-- deploy page - https://test-react-currency-converter.netlify.app/
+- deploy - https://test-react-currency-converter.netlify.app/
