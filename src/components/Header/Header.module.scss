@@ -1,0 +1,35 @@
+@import '@/styles/index.scss';
+
+.header {
+  padding: 1rem 0;
+  background: var(--light-beige);
+
+  &_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &_logo {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  &_amount {
+    display: flex;
+    gap: 1.2rem;
+
+    p {
+      @include adaptiveValue('font-size', 20, 16, 0, 1440, 320);
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;  
+    }
+
+    span {
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+    }
+  }
+}
