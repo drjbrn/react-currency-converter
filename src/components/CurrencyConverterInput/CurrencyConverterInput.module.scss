@@ -1,0 +1,13 @@
+.converter {
+  border: 1px solid var(--dark-gray);
+  background: var(--total-white);
+
+  &_input {
+    padding: 8px 12px;
+  }
+
+  &_select {
+    border-left: 1px solid var(--dark-gray);
+    padding: 0 6px;
+  }
+}
